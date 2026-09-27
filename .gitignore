@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Datasets — large TSVs, not tracked (2.5 GB+)
+dataset/train/
+dataset/test/
+
+# Generated submission files
+output/*.tsv
+
+# Trained artifacts (large; regenerate with `run.py train`)
+code/business_entity_resolution/artifacts/model.txt
+code/business_entity_resolution/artifacts/threshold.txt
